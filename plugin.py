@@ -3,13 +3,13 @@
     <description>
         <h2>SNMP Python - CHATGPT</h2>
         Panel konfiguracji urządzeń SNMP
-	Format danych: ID,NAME,OID,INTERVAL,DIVIDED   nie usuwaj wpisów, najpierw usuń DEVICES a potem zmieniaj konfiguracje
+	Format danych: ID,NAME,OID,INTERVAL,DIVIDED  
     </description>
     <params>
         <param field="Address" label="IP urządzenia" width="150px" default="192.168.1.100"/>
 	<param field="Port" label="Port" default="161"/>
         <param field="Mode1" label="Community SNMP" width="150px" default="public"/>
-        <param field="Mode2" label="Konfiguracja czujek (ID,Nazwa,OID,INTERVAL)" cols="40" rows="10" witdth="200px" default=""/>
+        <param field="Mode2" label="Konfiguracja czujek (ID,Nazwa,OID,INTERVAL,DIVIDER)" cols="40" rows="10" witdth="200px" default=""/>
         <param field="Mode3" label="Debug" width="150px">
             <options>
                 <option label="None" value="0" default="true"/>
